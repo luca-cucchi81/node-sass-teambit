@@ -12,20 +12,52 @@
   clear: both;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 /* STILE NAVBAR */
 
 nav {
   width: 100vw;
-  height: 80px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #dedad7;
   display: flex;
-  background-color: #ffe7d2;
+  justify-content: center;
+  align-items: center;
 }
 
-nav img {
+nav .container {
+  width: 60%;
   height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .container img {
+  height: 100%;
+}
+
+nav .container ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .container ul li {
+  font-weight: 700;
+  list-style: none;
+}
+
+nav .container ul li:hover {
+  color: #30488f;
+  cursor: pointer;
 }
 
 /* STILE MAIN */
