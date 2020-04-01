@@ -45,7 +45,7 @@ nav .nav-container {
 }
 
 nav .nav-container img {
-  height: 50%;
+  height: 40%;
 }
 
 nav .nav-container ul {
@@ -154,6 +154,66 @@ nav .nav-container ul li:last-child p {
 .jumbo-container img {
   width: 50%;
   height: 100%;
+}
+
+.first-row {
+  width: 100%;
+  margin-top: 100px;
+  padding: 80px 0;
+  background-color: #ffe7d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-row .first-row-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.first-row .first-row-container h2 {
+  font-size: 1.9em;
+  text-align: center;
+  color: #62402c;
+}
+
+.first-row .first-row-container .first-cards {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-row .first-row-container .first-cards .card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.first-row .first-row-container .first-cards .card img {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.first-row .first-row-container .first-cards .card p {
+  font-size: 1.4em;
+}
+
+.first-row .first-row-container img {
+  width: 290px;
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 80px;
 }
 
 /* STILE FOOTER */
