@@ -21,6 +21,10 @@ main {
   padding-top: 100px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* STILE NAVBAR */
 
 nav {
@@ -148,7 +152,6 @@ nav .nav-container ul li:last-child p {
 
 .jumbo-container .jumbotron a {
   margin-top: 20px;
-  text-decoration: none;
   color: #62402c;
 }
 
@@ -227,6 +230,50 @@ nav .nav-container ul li:last-child p {
   height: 300px;
   margin-top: 60px;
   margin-left: 10px;
+}
+
+.second-row {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.second-row .second-row-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-row .second-row-container:nth-child(odd) {
+  justify-content: flex-start;
+}
+
+.second-row .second-row-container:nth-child(even) {
+  justify-content: flex-end;
+}
+
+.second-row .second-row-container img {
+  width: 50%;
+}
+
+.second-row .second-row-container .second-card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.second-row .second-row-container .second-card > img {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
 }
 
 /* STILE FOOTER */
