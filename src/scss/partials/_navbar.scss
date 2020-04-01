@@ -29,6 +29,11 @@ nav{
                     color: $third-color;
                     cursor: pointer;
                 }
+
+                button{
+                    @include button-white;
+                    font-weight: 700;
+                }
             }
 
         }

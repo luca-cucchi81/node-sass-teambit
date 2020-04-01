@@ -67,6 +67,14 @@ nav .nav-container ul li:hover {
   cursor: pointer;
 }
 
+nav .nav-container ul li button {
+  padding: 7px 15px;
+  border: 1.8px solid #30488f;
+  border-radius: 8px;
+  color: #30488f;
+  font-weight: 700;
+}
+
 /* STILE MAIN */
 
 .jumbo-container {
