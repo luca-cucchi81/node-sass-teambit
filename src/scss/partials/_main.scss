@@ -65,10 +65,11 @@
 
 .first-row{
     width: 100%;
-    margin-top: 100px;
-    padding: 80px 0;
+    margin-top: 80px;
+    padding-top: 80px;
     background-color: $second-color;
     @include flexbox-column;
+
 
     .first-row-container{
         width: 50%;
