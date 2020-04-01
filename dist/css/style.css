@@ -272,8 +272,29 @@ nav .nav-container ul li:last-child p {
 
 .second-row .second-row-container .second-card > img {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   height: 80%;
+}
+
+.second-row .second-row-container .second-card h2 {
+  font-size: 1.5em;
+  color: #62402c;
+  padding-bottom: 15px;
+}
+
+.second-row .second-row-container .second-card p {
+  color: #62402c;
+  padding-bottom: 30px;
+}
+
+.second-row .second-row-container .second-card a {
+  padding-bottom: 30px;
+  font-weight: 700;
+  color: #30488f;
+}
+
+.second-row .second-row-container .second-card a:after {
+  content: " ->";
 }
 
 /* STILE FOOTER */
