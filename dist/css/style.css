@@ -17,6 +17,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+main {
+  padding-top: 80px;
+}
+
 /* STILE NAVBAR */
 
 nav {
@@ -66,9 +70,47 @@ nav .nav-container ul li:hover {
 /* STILE MAIN */
 
 .jumbo-container {
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.jumbo-container .jumbotron {
+  width: 70%;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jumbo-container .jumbotron h1 {
+  margin-bottom: 20px;
+  font-size: 55px;
+  color: #62402c;
+}
+
+.jumbo-container .jumbotron p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #62402c;
+}
+
+.jumbo-container .jumbotron a {
+  text-decoration: none;
+  color: #62402c;
+}
+
+.jumbo-container .jumbotron a:after {
+  content: " ->";
+}
+
+.jumbo-container img {
+  width: 50%;
+  height: 100%;
 }
 
 /* STILE FOOTER */

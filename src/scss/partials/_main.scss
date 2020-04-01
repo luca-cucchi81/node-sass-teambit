@@ -1,3 +1,37 @@
 .jumbo-container{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
     @include flexbox;
+
+    .jumbotron{
+        width: 70%;
+        margin-right: 30px;
+        @include flexbox-column;
+
+        h1{
+            margin-bottom: 20px;
+            font-size: 55px;
+            color: $fourth-color;
+        }
+
+        p{
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: $fourth-color;
+        }
+
+        a{
+            text-decoration: none;
+            color: $fourth-color;
+            &:after{
+                content: ' ->';
+            }
+        }
+    }
+
+    img{
+        width: 50%;
+        height: 100%;
+    }
 }

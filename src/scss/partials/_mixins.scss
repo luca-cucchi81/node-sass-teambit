@@ -4,6 +4,13 @@
     align-items: center;
 }
 
+@mixin flexbox-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 @mixin flexbox-around{
     display: flex;
     justify-content: space-around;
