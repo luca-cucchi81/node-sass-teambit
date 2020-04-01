@@ -18,7 +18,7 @@ body {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 /* STILE NAVBAR */
@@ -93,7 +93,8 @@ nav .nav-container ul li:last-child p {
 }
 
 .jumbo-container .jumbotron {
-  width: 70%;
+  width: 80%;
+  margin-top: 25px;
   margin-right: 30px;
   display: flex;
   flex-direction: column;
@@ -103,7 +104,7 @@ nav .nav-container ul li:last-child p {
 
 .jumbo-container .jumbotron h1 {
   margin-bottom: 20px;
-  font-size: 55px;
+  font-size: 60px;
   color: #62402c;
 }
 
@@ -162,8 +163,7 @@ nav .nav-container ul li:last-child p {
 
 .first-row {
   width: 100%;
-  margin-top: 80px;
-  padding-top: 80px;
+  margin-top: 120px;
   background-color: #ffe7d2;
   display: flex;
   flex-direction: column;
@@ -174,7 +174,7 @@ nav .nav-container ul li:last-child p {
 .first-row .first-row-container {
   width: 50%;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,8 +183,9 @@ nav .nav-container ul li:last-child p {
 }
 
 .first-row .first-row-container h2 {
-  font-size: 2em;
+  font-size: 1.9em;
   text-align: center;
+  margin-top: 90px;
   color: #62402c;
 }
 
