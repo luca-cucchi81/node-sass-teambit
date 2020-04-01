@@ -1,6 +1,6 @@
 nav{
     width: 100vw;
-    height: 70px;
+    height: 80px;
     position: fixed;
     top: 0;
     left: 0;
@@ -8,19 +8,21 @@ nav{
     border-bottom: 1px solid #dedad7;
     @include flexbox;
 
-    .container{
+    .nav-container{
         width: 60%;
         height: 100%;
         @include flexbox-between;
 
         img{
-            height:100%;
+            height: 50%;
         }
 
         ul{
             width: 50%;
             @include flexbox-around;
             li{
+                color: $fourth-color;
+                font-size: 17px;
                 font-weight: 700;
                 list-style: none;
                 &:hover{
