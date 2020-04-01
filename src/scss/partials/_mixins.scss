@@ -36,6 +36,7 @@
 @mixin button-blue{
     padding: 8px 15px;
     background-color: $third-color;
+    border: none;
     border-radius: 8px;
     color: $first-color;
 }

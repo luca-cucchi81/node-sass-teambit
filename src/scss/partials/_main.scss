@@ -15,13 +15,34 @@
             color: $fourth-color;
         }
 
-        p{
-            font-size: 1.5em;
+        h4{
+            font-size: 1.2em;
             margin-bottom: 20px;
             color: $fourth-color;
         }
 
+        .jumbo-buttons{
+            width: 70%;
+            @include flexbox-between;
+
+            p{
+                color: #bdbbcd;
+            }
+
+            button{
+                @include flexbox;
+                @include button-blue;
+
+                .btsign{
+                    padding-left: 10px;
+                    font-size: 1.2em;
+                    color: $first-color;
+                }
+            }
+        }
+
         a{
+            margin-top: 20px;
             text-decoration: none;
             color: $fourth-color;
             &:after{
