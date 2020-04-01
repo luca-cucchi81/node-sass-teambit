@@ -67,12 +67,18 @@ nav .nav-container ul li:hover {
   cursor: pointer;
 }
 
-nav .nav-container ul li button {
-  padding: 7px 15px;
+nav .nav-container ul li:last-child {
+  padding: 8px 15px;
   border: 1.8px solid #30488f;
   border-radius: 8px;
   color: #30488f;
-  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .nav-container ul li:last-child p {
+  padding-left: 10px;
 }
 
 /* STILE MAIN */

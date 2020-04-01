@@ -29,11 +29,14 @@ nav{
                     color: $third-color;
                     cursor: pointer;
                 }
-
-                button{
+                &:last-child{
                     @include button-white;
-                    font-weight: 700;
+                    @include flexbox-around;
+                    p{
+                        padding-left: 10px;
+                    }
                 }
+
             }
 
         }

@@ -27,8 +27,15 @@
 //MIXINS FOR BUTTONS
 
 @mixin button-white{
-    padding: 7px 15px;
+    padding: 8px 15px;
     border: 1.8px solid $third-color;
     border-radius: 8px;
     color: $third-color;
+}
+
+@mixin button-blue{
+    padding: 8px 15px;
+    background-color: $third-color;
+    border-radius: 8px;
+    color: $first-color;
 }
