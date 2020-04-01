@@ -1,0 +1,14 @@
+nav{
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: $second-color;
+
+    img{
+        height: 100%;
+
+    }
+}

@@ -12,7 +12,21 @@
   clear: both;
 }
 
-/* STILE HEADER */
+/* STILE NAVBAR */
+
+nav {
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: #ffe7d2;
+}
+
+nav img {
+  height: 100%;
+}
 
 /* STILE MAIN */
 

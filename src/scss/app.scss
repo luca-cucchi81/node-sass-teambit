@@ -1,9 +1,9 @@
-@import "partials/_variables";
+@import "partials/_variables"; //import variabili
 /* RESET CSS */
 @import "partials/_reset";
-@import "partials/_common";
-/* STILE HEADER */
-@import "partials/_header";
+@import "partials/_common"; //import stili comuni
+/* STILE NAVBAR */
+@import "partials/_navbar";
 /* STILE MAIN */
 @import "partials/_main";
 /* STILE FOOTER */
