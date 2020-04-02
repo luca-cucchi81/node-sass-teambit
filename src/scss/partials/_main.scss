@@ -64,63 +64,56 @@
 
 // PRIMA ROW
 
-.first-row{
-    width: 100%;
-    margin-top: 120px;
-    background-color: $second-color;
+.first-row-container{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 80px;
     @include flexbox-column;
+    align-items: center;
 
+    h2{
+        font-size: 1.9em;
+        text-align: center;
+        margin-top: 90px;
+        color: $fourth-color;
+    }
 
-    .first-row-container{
-        width: 50%;
-        margin: 0 auto;
-        padding-bottom: 80px;
-        @include flexbox-column;
-        align-items: center;
+    .first-cards{
+        margin-top: 60px;
+        padding-right: 60px;
+        @include flexbox-between;
 
-        h2{
-            font-size: 1.9em;
+        .card{
             text-align: center;
-            margin-top: 90px;
-            color: $fourth-color;
-        }
+            @include flexbox-column;
+            align-items: center;
 
-        .first-cards{
-            margin-top: 60px;
-            padding-right: 60px;
-            @include flexbox-between;
+            img{
+                width: 200px;
+                height: 150px;
+                margin-bottom: 25px;
+            }
 
-            .card{
-                text-align: center;
-                @include flexbox-column;
-                align-items: center;
+            p{
+                font-size: 1.4em;
+                color: $fourth-color;
+            }
 
-                img{
-                    width: 200px;
-                    height: 150px;
-                    margin-bottom: 25px;
-                }
-
-                p{
-                    font-size: 1.4em;
-                    color: $fourth-color;
-                }
-
-                #cat{
-                    width: 100px;
-                    height: 150px;
-                }
+            #cat{
+                width: 100px;
+                height: 150px;
             }
         }
+    }
 
-        img{
-            width: 290px;
-            height: 300px;
-            margin-top: 60px;
-            margin-left: 10px;
-        }
+    img{
+        width: 290px;
+        height: 300px;
+        margin-top: 60px;
+        margin-left: 10px;
     }
 }
+
 
 // SECONDA ROW
 
@@ -144,6 +137,7 @@
 
         img{
             width: 50%;
+            padding-top: 60px;
         }
 
         .second-card{
@@ -174,6 +168,22 @@
                     content: ' ->'
                 }
             }
+        }
+    }
+}
+
+// TERZA ROW
+
+.first-row-container.last{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    @include flexbox-column;
+    align-items: center;
+
+    h2{
+        &:after{
+            content: url('https://teambit.io/wp-content/themes/teambeat/img/happy.svg')
         }
     }
 }

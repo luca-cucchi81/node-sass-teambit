@@ -25,6 +25,16 @@ a {
   text-decoration: none;
 }
 
+.first-row {
+  width: 100%;
+  margin-top: 120px;
+  background-color: #ffe7d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 /* STILE NAVBAR */
 
 nav {
@@ -164,17 +174,7 @@ nav .nav-container ul li:last-child p {
   height: 100%;
 }
 
-.first-row {
-  width: 100%;
-  margin-top: 120px;
-  background-color: #ffe7d2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.first-row .first-row-container {
+.first-row-container {
   width: 50%;
   margin: 0 auto;
   padding-bottom: 80px;
@@ -185,14 +185,14 @@ nav .nav-container ul li:last-child p {
   align-items: center;
 }
 
-.first-row .first-row-container h2 {
+.first-row-container h2 {
   font-size: 1.9em;
   text-align: center;
   margin-top: 90px;
   color: #62402c;
 }
 
-.first-row .first-row-container .first-cards {
+.first-row-container .first-cards {
   margin-top: 60px;
   padding-right: 60px;
   display: flex;
@@ -200,7 +200,7 @@ nav .nav-container ul li:last-child p {
   align-items: center;
 }
 
-.first-row .first-row-container .first-cards .card {
+.first-row-container .first-cards .card {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -209,23 +209,23 @@ nav .nav-container ul li:last-child p {
   align-items: center;
 }
 
-.first-row .first-row-container .first-cards .card img {
+.first-row-container .first-cards .card img {
   width: 200px;
   height: 150px;
   margin-bottom: 25px;
 }
 
-.first-row .first-row-container .first-cards .card p {
+.first-row-container .first-cards .card p {
   font-size: 1.4em;
   color: #62402c;
 }
 
-.first-row .first-row-container .first-cards .card #cat {
+.first-row-container .first-cards .card #cat {
   width: 100px;
   height: 150px;
 }
 
-.first-row .first-row-container img {
+.first-row-container img {
   width: 290px;
   height: 300px;
   margin-top: 60px;
@@ -260,6 +260,7 @@ nav .nav-container ul li:last-child p {
 
 .second-row .second-row-container img {
   width: 50%;
+  padding-top: 60px;
 }
 
 .second-row .second-row-container .second-card {
@@ -295,6 +296,21 @@ nav .nav-container ul li:last-child p {
 
 .second-row .second-row-container .second-card a:after {
   content: " ->";
+}
+
+.first-row-container.last {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.first-row-container.last h2:after {
+  content: url("https://teambit.io/wp-content/themes/teambeat/img/happy.svg");
 }
 
 /* STILE FOOTER */

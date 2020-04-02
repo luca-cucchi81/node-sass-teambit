@@ -10,3 +10,10 @@ main{
 a{
     text-decoration: none;
 }
+
+.first-row{
+    width: 100%;
+    margin-top: 120px;
+    background-color: $second-color;
+    @include flexbox-column;
+}
