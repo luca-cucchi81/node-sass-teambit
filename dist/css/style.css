@@ -361,5 +361,18 @@ nav .nav-container ul li:last-child p {
   height: 60px;
 }
 
+.first-row-container.last .quote .founders .founders-names {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.first-row-container.last .quote .founders .founders-names small {
+  padding-top: 60px;
+  text-align: left;
+}
+
 /* STILE FOOTER */
 

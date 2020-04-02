@@ -225,7 +225,16 @@
             img{
                 width: 60px;
                 height: 60px;
+            }
 
+            .founders-names{
+                padding-left: 20px;
+                @include flexbox-column;
+
+                small{
+                    padding-top: 60px;
+                    text-align: left;
+                }
             }
         }
 
