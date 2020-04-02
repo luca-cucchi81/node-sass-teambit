@@ -375,6 +375,38 @@ nav .nav-container ul li:last-child p {
   text-align: left;
 }
 
+.first-row-container.last .quote-buttons {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-row-container.last .quote-buttons button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 15px;
+  background-color: #30488f;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.first-row-container.last .quote-buttons button span {
+  padding-left: 20px;
+}
+
+.first-row-container.last .quote-buttons p {
+  color: #62402c;
+  padding: 0 20px;
+}
+
+.first-row-container.last a {
+  font-size: 2em;
+}
+
 /* STILE FOOTER */
 
 .footer-row {

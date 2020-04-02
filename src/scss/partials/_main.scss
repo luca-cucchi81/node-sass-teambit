@@ -237,6 +237,29 @@
                 }
             }
         }
+    }
 
+    .quote-buttons{
+        width: 100%;
+        padding-top: 30px;
+        @include flexbox-between;
+
+        button{
+            @include flexbox-around;
+            @include button-blue;
+
+            span{
+                padding-left: 20px;
+            }
+        }
+
+        p{
+            color: $fourth-color;
+            padding: 0 20px;
+        }
+    }
+
+    a{
+        font-size: 2em;
     }
 }
