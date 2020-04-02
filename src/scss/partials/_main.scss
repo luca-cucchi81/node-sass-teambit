@@ -257,14 +257,17 @@
 
         .footer-jumbo{
             width: 30%;
+            @include flexbox;
+            align-items: flex-start;
             h2{
                 font-size: 2em;
+                padding-left: 15px;
                 color: $fourth-color;
             }
         }
 
         .footer-links{
-            width: 90%;
+            width: 80%;
             padding-left: 80px;
             @include flexbox-between;
             align-items: flex-start;
@@ -281,7 +284,7 @@
 
                 dd{
                     font-size: 1.3em;
-                    line-height: 2em;
+                    line-height: 2.3em;
                 }
             }
         }

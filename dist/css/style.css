@@ -395,15 +395,20 @@ nav .nav-container ul li:last-child p {
 
 .footer-row .footer-container .footer-jumbo {
   width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
 }
 
 .footer-row .footer-container .footer-jumbo h2 {
   font-size: 2em;
+  padding-left: 15px;
   color: #62402c;
 }
 
 .footer-row .footer-container .footer-links {
-  width: 90%;
+  width: 80%;
   padding-left: 80px;
   display: flex;
   justify-content: space-between;
@@ -423,7 +428,7 @@ nav .nav-container ul li:last-child p {
 
 .footer-row .footer-container .footer-links .footer-links-card dd {
   font-size: 1.3em;
-  line-height: 2em;
+  line-height: 2.3em;
 }
 
 /* STILE FOOTER */
