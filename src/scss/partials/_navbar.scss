@@ -4,6 +4,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 99;
     background-color: $first-color;
     border-bottom: 1px solid #dedad7;
     @include flexbox;
