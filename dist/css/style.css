@@ -407,6 +407,10 @@ nav .nav-container ul li:last-child p {
   color: #62402c;
 }
 
+.footer-row .footer-container .footer-jumbo h2 a {
+  color: #30488f;
+}
+
 .footer-row .footer-container .footer-links {
   width: 80%;
   padding-left: 80px;
@@ -429,6 +433,10 @@ nav .nav-container ul li:last-child p {
 .footer-row .footer-container .footer-links .footer-links-card dd {
   font-size: 1.3em;
   line-height: 2.3em;
+}
+
+.footer-row .footer-container .footer-links .footer-links-card dd a {
+  color: #62402c;
 }
 
 /* STILE FOOTER */

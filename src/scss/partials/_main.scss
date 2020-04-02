@@ -263,6 +263,10 @@
                 font-size: 2em;
                 padding-left: 15px;
                 color: $fourth-color;
+
+                a{
+                    color: $third-color;
+                }
             }
         }
 
@@ -285,6 +289,10 @@
                 dd{
                     font-size: 1.3em;
                     line-height: 2.3em;
+
+                    a{
+                        color: $fourth-color;
+                    }
                 }
             }
         }
