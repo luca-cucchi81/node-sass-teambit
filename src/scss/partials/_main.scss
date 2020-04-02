@@ -191,20 +191,36 @@
     .quote{
         width: 80%;
         margin: 0 auto;
+        position: relative;
         border: 1px solid $fourth-color;
-        border-radius: 5px;
+        border-radius: 10px;
         background-color: $first-color;
 
-        & p{
+        i{
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 3em;
+            color: $third-color;
+        }
+
+        p{
             text-align: justify;
             font-size: 18px;
             padding: 0 30px;
             color: $fourth-color;
-            &:first-child{
+            &:nth-child(2){
                 padding-top: 30px;
             }
-            &:last-child{
-                padding-bottom: 30px;
+        }
+
+        .founders{
+            @include flexbox;
+            justify-content: flex-start;
+            img{
+                margin-bottom: 40px;
+                width: 40px;
+                height: 40px;
             }
         }
 
