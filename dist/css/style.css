@@ -309,8 +309,35 @@ nav .nav-container ul li:last-child p {
   align-items: center;
 }
 
+.first-row-container.last h2 {
+  padding-bottom: 50px;
+}
+
 .first-row-container.last h2:after {
   content: url("https://teambit.io/wp-content/themes/teambeat/img/happy.svg");
+}
+
+.first-row-container.last .quote {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #62402c;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.first-row-container.last .quote p {
+  text-align: justify;
+  font-size: 18px;
+  padding: 0 30px;
+  color: #62402c;
+}
+
+.first-row-container.last .quote p:first-child {
+  padding-top: 30px;
+}
+
+.first-row-container.last .quote p:last-child {
+  padding-bottom: 30px;
 }
 
 /* STILE FOOTER */

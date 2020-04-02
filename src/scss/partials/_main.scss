@@ -182,8 +182,31 @@
     align-items: center;
 
     h2{
+        padding-bottom: 50px;
         &:after{
             content: url('https://teambit.io/wp-content/themes/teambeat/img/happy.svg')
         }
+    }
+
+    .quote{
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid $fourth-color;
+        border-radius: 5px;
+        background-color: $first-color;
+
+        & p{
+            text-align: justify;
+            font-size: 18px;
+            padding: 0 30px;
+            color: $fourth-color;
+            &:first-child{
+                padding-top: 30px;
+            }
+            &:last-child{
+                padding-bottom: 30px;
+            }
+        }
+
     }
 }
