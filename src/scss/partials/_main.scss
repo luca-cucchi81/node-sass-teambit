@@ -53,6 +53,9 @@
             &:after{
                 content: ' ->';
             }
+            &:hover{
+                color: $third-color;
+            }
         }
     }
 
@@ -247,6 +250,9 @@
         button{
             @include flexbox-around;
             @include button-blue;
+            &:hover{
+                cursor: pointer;
+            }
 
             span{
                 padding-left: 20px;

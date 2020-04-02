@@ -51,6 +51,9 @@
 
                     a{
                         color: $fourth-color;
+                        &:hover{
+                            color: $third-color;
+                        }
                     }
                 }
             }

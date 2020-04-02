@@ -170,6 +170,10 @@ nav .nav-container ul li:last-child p {
   content: " ->";
 }
 
+.jumbo-container .jumbotron a:hover {
+  color: #30488f;
+}
+
 .jumbo-container img {
   width: 50%;
   height: 100%;
@@ -394,6 +398,10 @@ nav .nav-container ul li:last-child p {
   color: #fff;
 }
 
+.first-row-container.last .quote-buttons button:hover {
+  cursor: pointer;
+}
+
 .first-row-container.last .quote-buttons button span {
   padding-left: 20px;
 }
@@ -471,5 +479,9 @@ nav .nav-container ul li:last-child p {
 
 .footer-row .footer-container .footer-links .footer-links-card dd a {
   color: #62402c;
+}
+
+.footer-row .footer-container .footer-links .footer-links-card dd a:hover {
+  color: #30488f;
 }
 
