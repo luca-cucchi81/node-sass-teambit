@@ -403,10 +403,6 @@ nav .nav-container ul li:last-child p {
   padding: 0 20px;
 }
 
-.first-row-container.last a {
-  font-size: 2em;
-}
-
 /* STILE FOOTER */
 
 .footer-row {
@@ -433,6 +429,10 @@ nav .nav-container ul li:last-child p {
   justify-content: center;
   align-items: center;
   align-items: flex-start;
+}
+
+.footer-row .footer-container .footer-jumbo img {
+  width: 20%;
 }
 
 .footer-row .footer-container .footer-jumbo h2 {
